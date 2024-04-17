@@ -1,0 +1,74 @@
+/* styles.css */
+.comics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px; /* Ajusta el margen superior para separar más de la barra de navegación */
+}
+
+.comics > div {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.comics img {
+    width: 240px;
+    height: 400px;
+    margin-bottom: 15px; /* Espacio entre la imagen y el botón */
+}
+
+.comics button {
+    width: 100px; /* Ancho del botón */
+}
+
+/* styles.css */
+
+/* Estilos generales para todas las páginas */
+body {
+    font-family: Arial, sans-serif;
+    /* Otros estilos generales aquí */
+}
+
+/* Estilos específicos para la página BNH.html */
+body.bnh {
+    background-image: url('/assets/img/BNHWALLPAPER.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Estilo para la imagen BNH */
+body.bnh img.bnh-image {
+    width: 30%; /* Ajusta el ancho de la imagen */
+    float: left; /* Posiciona la imagen a la izquierda */
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px; /* Añade un poco de espacio a la derecha de la imagen */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombreado a la imagen */
+}
+
+body.csm {
+    background-image: url('/assets/img/CSMWALLPAPER.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Estilo para la imagen csm */
+body.csm img.csm-image {
+    width: 28%; /* Ajusta el ancho de la imagen */
+    float: left; /* Posiciona la imagen a la izquierda */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px; /* Añade un poco de espacio a la derecha de la imagen */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombreado a la imagen */
+}
+body.inv {
+    background-image: url('/assets/img/INVWALLPAPER.jpg');
+    background-size: auto;
+    background-position: center;
+}
+/* Estilo para la imagen inv */
+body.inv img.inv-image {
+    width: 30%; /* Ajusta el ancho de la imagen */
+    float: left; /* Posiciona la imagen a la izquierda */
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px; /* Añade un poco de espacio a la derecha de la imagen */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombreado a la imagen */
+}
