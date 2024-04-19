@@ -1,4 +1,9 @@
 /* styles.css */
+
+body.index {
+    background-image: url(/assets/img/bg.jpg);
+    background-size: cover;
+}
 .comics {
     display: flex;
     justify-content: space-around;
@@ -44,6 +49,17 @@ body.bnh img.bnh-image {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombreado a la imagen */
 }
 
+/* styles.css */
+
+.sinopsis-container{
+    font-size: 20px;
+    line-height: 2.5;
+    margin-bottom: 20px;
+    background-color: #ebe9e9da; /* Fondo blanco */
+    padding: 30px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+
 body.csm {
     background-image: url('/assets/img/CSMWALLPAPER.jpg');
     background-size: cover;
@@ -51,11 +67,12 @@ body.csm {
 }
 /* Estilo para la imagen csm */
 body.csm img.csm-image {
-    width: 28%; /* Ajusta el ancho de la imagen */
+    width: 25%; /* Ajusta el ancho de la imagen */
     float: left; /* Posiciona la imagen a la izquierda */
-    margin-top: 20px;
+    margin-top: 10px;
+    
     margin-left: 20px;
-    margin-right: 20px; /* Añade un poco de espacio a la derecha de la imagen */
+    margin-right: 0px; /* Añade un poco de espacio a la derecha de la imagen */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombreado a la imagen */
 }
 body.inv {
@@ -71,4 +88,25 @@ body.inv img.inv-image {
     margin-left: 50px;
     margin-right: 20px; /* Añade un poco de espacio a la derecha de la imagen */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombreado a la imagen */
+}
+
+
+.comic-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.comic-details img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.comic-info {
+    flex: 1;
+}
+
+.buy-button {
+    margin-top: 20px;
+    
 }
